@@ -1,4 +1,107 @@
+*,* :before, *:after {
+  box-sizing: border-box;
+}
+
+
+
+
 body {
+  display:  inline-block;
   background-color: #dadada;
-  font-size: 10px;
+  font-size: 25px;
+  text-align:  center;
+  float:  center;
+  width:  100%;
+  
+}
+
+
+
+
+
+
+
+.emphasis {
+  display: inline-block;
+  float:  center;
+  font-size:  70%;
+  font-weight:  600;
+  font-family:  sans-serif;
+  margin-top:  8%;
+  margin-bottom:  8%;
+
+}
+
+.container {
+  display:  inline-block;
+  float:  center;
+  
+}
+
+div {
+  margin: 0 0 20px 0;
+}
+
+
+
+.preview {
+  display:  inline-block;
+  width:  350px;
+  height:  350px;
+  float:  center;
+  margin:  0 5px 15px 5px;
+
+}
+
+
+
+@media screen and (min-width:  575px)
+  .preview {
+    width:  50px; 
+  }
+
+@media screen and (min-width:  1200px)
+  .preview {
+    width:  120px;
+  }
+
+
+
+
+.preview.baku {
+    background-image: url(../images/baku.jpg);
+    background-size:  cover;
+}
+
+.preview.london {
+  
+  
+  background-image: url(../images/london.png);
+  background-size:  cover;
+  
+  
+}
+
+.preview.madrid {
+  
+ 
+  background-image: url(../images/madrid.jpg);
+  background-size:  cover;
+  
+  
+}
+
+.preview.rome {
+  
+
+  background-image: url(../images/rome.jpg);
+  background-size:  cover;
+  
+}
+div h1{
+  font-weight:  600;
+  position:  relative; 
+  right:  30%;
+  top:  10%;
+  
 }
